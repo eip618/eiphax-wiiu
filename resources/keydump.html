@@ -1,0 +1,80 @@
+<!doctype html><html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136684222-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136684222-1');
+</script>
+    <title>Dumping title keys</title>
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class="animated">
+        <div class="header">
+    <div class="container-flex">
+    <div class="logo">
+        <h1>eipHax</h1>    
+    </div>
+    <div class="nav">
+		<ul>
+            <li><a href="index">Home</a></li>
+            <li><a href="nav">Site Nav</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+        <div class="container">
+        <div class="content">
+            <center><h1>Dumping title keys with tik2sd</h1></center>
+            <hr>
+        <p>Title keys are needed to download base games for UWUVCI.<br>
+        After purchasing a base from the eShop you can use tik2sd to obtain all title keys from your console.</p>
+		
+        <h3>Instructions:</h3>
+        <ol>
+            <li>Insert your Wii U's SD Card into your Computer</li>
+            <li>Download the <code>tik2sd.elf</code> from the latest <a href="https://github.com/FIX94/tik2sd/releases/latest">tik2sd release</a></li>
+            <li>Copy the <code>tik2sd.elf</code> to the <code>/wiiu/apps</code> folder on your SD Card</li>
+            <li>Insert your SD Card back into your Wii U</li>
+            <li>Launch the Homebrew Launcher, find the tik2sd.elf and open it</li>
+            <li>Press "A" to dump your console tickets
+                <p>After the process is done you will be back in the Wii U menu</li>
+            <li>Power off your console and insert the SD Card back into your PC</li>
+            <li>Open the <code>keys.txt</code> file in the <code>tik2sd</code> folder on your SD Card with a text editor</li>
+            <li>There should be several lines in that file with the title keys of your installed titles</li>
+        </ol>
+
+        <p>Those lines will look something like this:
+        <pre><code>
+Title ID         Title Key                       Title Path
+0005000000000000 fffffffffffffffffffffffffffffff (0000/00000000.tik@0x0)
+        </code></pre>
+
+        <p>Search for the matching title id of your game and copy the title key into UWUVCI.
+
+        <p><b>Note that title keys are copyrighted and are not allowed to be shared!</b>
+	<div class="footer">
+	<div class="container">
+	<div class="badge">
+	<img src="./img/spaghetti.svg" width="270px">
+	</div>
+	<div class="nav2">
+	<ul>
+		<li><a href="https://eiphax.tech/privacy" target="_blank">Privacy</a>
+		<li><a href=" ">Blank</a></li>
+		<li><a href=" ">Blank</a></li>
+		<li><a href="https://3ds.eiphax.tech/donate">Donations</a></li>
+		<li><a href="https://3ds.eiphax.tech">3DS</a></li>
+		<li><a href="https://nx.eiphax.tech">Switch</a></li>
+	</ul>
+	</div>
+	</div>
+	</div>
+		</div>
+		</div>
+		</body>
+</html>
