@@ -12,6 +12,13 @@
     <title>Using hard drives on a Wii U</title>
     <link rel="stylesheet" media="screen and (min-width: 1000px)" href="main.css" type="text/css"> <link rel="stylesheet" media="screen and (max-width: 1000px)" href="main-mini.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+            border: 2px solid #434c5e;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
     </head>
     <body class="animated">
         <div class="header">
@@ -37,12 +44,25 @@
             Tools like <a href="https://github.com/GaryOderNichts/DumpsterU">DumpsterU</a> exist, which allow you to dump games and saves from a Wii U formatted drive on your PC.</p>
             
             <p>Any external hard drive from a reputable brand will work, but most of them need a Y-Cable if they're not externally powered.
-            A Y-Cable that will plug directly into your hard drive will look something like this:</p>
-            <img src="img/microbY-cable.jpg" alt="USB Y-Cable" width="268" height="268"/>
-	    <img src="img/femaleYcable.jpg" alt="Female USB Y-Cable" width="500" height="500"/>
+            The most common Y-Cables will look something like this:</p>
+            <div style="overflow-x: auto;">
+                <table>
+                    <tr>
+                        <th>USB Micro-B Y-Cable</th>
+                        <th>Female USB-A Y-Cable</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/microb-Y-cable.jpg" alt="USB Micro-B Y-Cable" width="268" height="268"/></td>
+                        <td><img src="img/female-Y-cable.jpg" alt="Female USB-A Y-Cable" width="268" height="268"/></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 268px;">This Y-Cable will plug directly into your hard drive.</td>
+                        <td style="width: 268px;">This Y-Cable has a female USB-A connector for the cable of your hard drive.<br>This is useful for hard drives which don't have a Micro-B port.</td>
+                    </td>
+                </table>
+            </div>
 
-            <p>The other Y cable is a female USB-A connector, where you can plug in the USB of your hard drive. Some HDD's don't have a micro-B port, so it comes in handy.
-            An external SSD will also work, but some of them still need a Y-Cable. Also note that the Wii U will barely benefit from the faster transfer and access times.</p>
+            <p>An external SSD will also work, but some of them still need a Y-Cable. Also note that the Wii U will barely benefit from the faster transfer and access times.</p>
             
             <p><b>Using a flash drive / thumb drive / SD Card in a USB adapter is not recommended!</b><br>
             Those devices are not made for constant writes which occur while dumping a game or saving games.
